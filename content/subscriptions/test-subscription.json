@@ -1,0 +1,117 @@
+{
+  "subscriptions": [
+    {
+      "subscriptionId": "12345678-1234-1234-8234-123456789012",
+      "location": "eastus",
+      "subscriptionName": "test-sub",
+      "subscriptionAliasName": "test-alias",
+      "managementGroupName": "test-mg",
+      "resourceGroups": [
+        {
+          "name": "test-rg-1",
+          "location": "eastus",
+          "tags": {
+            "ApplicationName": "App1"
+          },
+          "arcGateways": [
+            {
+              "name": "ag-1",
+              "gateway_type": "public"
+            },
+            {
+              "name": "ag-2",
+              "gateway_type": "public"
+            },
+            {
+              "name": "ag-3",
+              "gateway_type": "public"
+            }
+          ]
+        },
+        {
+          "name": "test-rg-2",
+          "location": "westus",
+          "tags": {
+            "ApplicationName": "App2"
+          }
+        },
+        {
+          "name": "test-rg-3",
+          "location": "northeurope",
+          "tags": {
+            "ApplicationName": "App3"
+          }
+        }
+      ],
+      "roleAssignments": [
+        {
+          "roleDefinitionName": "Owner",
+          "principalId": "12345678-1234-1234-8234-123456789012"
+        },
+        {
+          "roleDefinitionName": "Contributor",
+          "principalId": "12345678-1234-1234-8234-123456789013"
+        },
+        {
+          "roleDefinitionName": "Reader",
+          "principalId": "12345678-1234-1234-8234-123456789014"
+        }
+      ],
+      "userGroups": [
+        {
+          "name": "ug-1",
+          "description": "User Group 1",
+          "owners": [
+            "test1@gsk.com"
+          ],
+          "roleAssignments": [
+            {
+              "roleDefinitionName": "Owner"
+            }
+          ]
+        },
+        {
+          "name": "ug-2",
+          "description": "User Group 2",
+          "owners": [
+            "test2@gsk.com"
+          ],
+          "roleAssignments": [
+            {
+              "roleDefinitionName": "Contributor"
+            }
+          ]
+        },
+        {
+          "name": "ug-3",
+          "description": "User Group 3",
+          "owners": [
+            "test3@gsk.com"
+          ],
+          "roleAssignments": [
+            {
+              "roleDefinitionName": "Reader"
+            }
+          ]
+        }
+      ],
+      "resourceProviders": {
+        "Microsoft.Compute": [
+          "feature1",
+          "feature2",
+          "feature3"
+        ],
+        "Microsoft.Network": [
+          "featureA",
+          "featureB",
+          "featureC"
+        ],
+        "Microsoft.Storage": [
+          "featureX",
+          "featureY",
+          "featureZ"
+        ]
+      }
+    }
+  ]
+}
