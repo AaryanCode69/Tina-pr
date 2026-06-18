@@ -1,0 +1,31 @@
+{
+  "subscriptions": [
+    {
+      "location": "testing",
+      "subscriptionName": "testing",
+      "subscriptionAliasName": "testing",
+      "managementGroupName": "testing",
+      "resourceGroups": [
+        {
+          "name": "testing",
+          "location": "testing",
+          "tags": {
+            "ApplicationName": "testing",
+            "Environment": "testing",
+            "ParentCIID": "testing",
+            "BusinessOwner": "testing",
+            "TechnicalOwner": "testing",
+            "LineOfBusiness": "testing",
+            "BusinessUnit": "testing",
+            "BusinessFunction": "testing",
+            "Chargeback": "testing"
+          },
+          "userGroups": [
+            "testing",
+            "testing"
+          ]
+        }
+      ]
+    }
+  ]
+}
