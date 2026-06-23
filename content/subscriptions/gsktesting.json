@@ -1,0 +1,10 @@
+{
+  "subscriptions": [
+    {
+      "location": "gsktesting",
+      "subscriptionName": "gsktesting",
+      "subscriptionAliasName": "gsktesting",
+      "managementGroupName": "gsktesting"
+    }
+  ]
+}
