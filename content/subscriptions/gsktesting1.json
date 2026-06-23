@@ -1,0 +1,27 @@
+{
+  "subscriptions": [
+    {
+      "location": "gsktesting1",
+      "subscriptionName": "gsktesting1",
+      "subscriptionAliasName": "gsktesting1",
+      "managementGroupName": "gsktesting1",
+      "resourceGroups": [
+        {
+          "name": "gsktesting1",
+          "location": "gsktesting1",
+          "tags": {
+            "ApplicationName": "gsktesting1",
+            "Environment": "gsktesting1",
+            "ParentCIID": "gsktesting1",
+            "BusinessOwner": "gsktesting1",
+            "TechnicalOwner": "gsktesting1",
+            "LineOfBusiness": "gsktesting1",
+            "BusinessUnit": "gsktesting1",
+            "BusinessFunction": "gsktesting1",
+            "Chargeback": "gsktesting1"
+          }
+        }
+      ]
+    }
+  ]
+}
