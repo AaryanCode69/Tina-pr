@@ -1,0 +1,27 @@
+{
+  "subscriptions": [
+    {
+      "location": "sk-1",
+      "subscriptionName": "sk-1",
+      "subscriptionAliasName": "sk-1",
+      "managementGroupName": "sk-1",
+      "resourceGroups": [
+        {
+          "name": "sk-1",
+          "location": "sk-1",
+          "tags": {
+            "ApplicationName": "sk-1",
+            "Environment": "sk-1",
+            "ParentCIID": "sk-1",
+            "BusinessOwner": "sk-1",
+            "TechnicalOwner": "sk-1",
+            "LineOfBusiness": "sk-1",
+            "BusinessUnit": "sk-1",
+            "BusinessFunction": "sk-1",
+            "Chargeback": "sk-1"
+          }
+        }
+      ]
+    }
+  ]
+}
